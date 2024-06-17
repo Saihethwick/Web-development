@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0;
+      margin: 0; 
+    }
+    .c{
+      display: grid;
+      height: 748px;
+      width: 748px;
+      gap: 9px;
+      grid-template-columns: 320px 198px 153px 50px;
+      grid-template-rows: 414px 130px 155px 20px  ;
+      background-color: black;
+    }
+    .c .wh3{
+      row-gap: 10px;
+    }
+    .i{
+      background-color: #F0F1EC;
+    }
+    .red{
+      background-color: red;
+    }
+    .wha{
+      grid-column: span 3;
+    }
+    .whb{
+      grid-row: span 2;
+    }
+    .whc{
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    .blue{
+      background-color:#004592;
+      border-bottom: 10px solid black;
+      
+    }
+    .wh3{
+      grid-row: span 2;
+
+    }
+    .y{
+      background-color: #F9D01E;
+    }
+    
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+
+<body>
+<div class="c">
+  <div class="i red"></div>
+  <div class="i wha"></div>
+  <div class="i whb"></div>
+  <div class="i whc"></div>
+  <div class="i blue"></div>
+  <div class="i wh3"></div>
+  <div class="i wh4"></div>
+  <div class="i y"></div>
+  
+  <div class="i Black"></div>
+</div>
+
+</body>
+
+</html>
